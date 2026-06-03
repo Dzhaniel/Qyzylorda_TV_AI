@@ -1,0 +1,15 @@
+flask
+google-genai
+gunicorn
+*(Ескерту: `gunicorn` — бұл сайтты интернетте тұрақты әрі қатесіз ұстап тұратын веб-сервер).*
+
+---
+
+### 2-ҚАДАМ: Кодты GitHub-қа жүктеу
+
+Егер кодтарың әлі GitHub-та жоқ болса немесе ескі нұсқасы тұрса, оны жаңартып жібереміз. VS Code терминалын ашып, мына командаларды жаз:
+
+```bash
+git add .
+git commit -m "Web App with production server ready"
+git push origin main
